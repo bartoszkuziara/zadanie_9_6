@@ -6,9 +6,9 @@ function addLi() {
 	
 
 	var li = list.getElementsByTagName('li');
-		ile = li.length;
+		
 		element = document.createElement('li');
-		element.innerHTML = 'item '+ ile;	
+		element.innerHTML = 'item '+ li.length;	
 
 		list.appendChild(element);
 
